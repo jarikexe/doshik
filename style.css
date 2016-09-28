@@ -1,0 +1,200 @@
+html,body,div,ul,li,a{font-family: 'Baloo Bhaina', cursive;margin:0;pading:0;list-style: none;text-decoration: none;}
+body{overflow-y: scroll;}
+#wrapper{
+	width:100%;
+	overflow: hidden;
+}
+#wrapper canvas{
+	display: block;
+	width: 800px;
+	margin:0 auto;
+}
+#plNameWrp{
+	width: 800px;
+	margin:0 auto;
+}
+#playerName{
+	position: absolute;
+	top:0;
+	margin-left: 20px;
+	background: rgba(000,000,000,0.3);
+	color: #D4B612;
+	padding:7px 20px;
+	border-radius: 0 0 20px 20px;
+}
+#back{
+	position: relative;
+	width: 100%;
+	background: #000;
+}
+#inpOk{
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+}
+#nameFill{
+	-webkit-border: none;
+	border: none;
+	width: 100%;
+	position: absolute;
+	top:50%;
+	margin-top: -100px;
+}
+
+#nameFill img{
+	box-sizing: border-box;
+	padding:10px;
+	margin-top: 25px;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+
+#nameFill img:hover{
+	cursor: pointer;
+}
+#nameFill input{
+	font-size: 100px;	
+	display: block;
+	width:95%;
+	margin: 0 auto;
+	outline: none;
+	text-align: center;
+	padding: 20px 15px;
+}
+
+#info{
+	bottom: 10px;
+	width: 100%;
+	position: absolute;
+
+}
+#info table{
+	width: 800px;
+	margin: 0 auto;
+
+}
+#info td{
+	text-align: center;
+}
+#info span{
+	background: rgba(0,0,0,.5);
+	color: #FFF;
+	padding: 10px 20px;
+	margin-left: 20px;
+}
+#sore{
+	width: 800px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+#sore table{
+	border-radius: 4px;
+	color:#FFF;
+	box-sizing: border-box;
+	width: 100%;
+	background: rgba(57,147,168,.5);
+	padding: 20px;
+}
+#sore td{
+	border-bottom: 2px dashed;
+}
+
+
+#sore td{
+	line-height: 2.3;
+}
+#sore td:nth-child(1){
+	font-size: 150%;
+	width: 85%;
+}
+#sore td:nth-child(2){
+	font-size: 200%;
+	color:#F1C826;
+	text-align: center;
+	width: 15%;
+}
+.centertext{
+	text-align: center;
+}
+
+.gameOver{
+	display: block;
+	padding:20px 10px;
+	background: rgba(0,0,0,.5);
+	color: #ED92F8;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: -65px;
+	border-radius: 20px;
+	border: 2px dotted;
+}
+.gameOver #replay{
+	display: block;
+	text-align: center;
+	width: 150px;
+	margin: 0 auto;
+	line-height: 2.2;
+	padding: 10px 5px;
+	background: #5E9C52;
+	color:#FFF;
+	cursor: pointer;
+	border:2px solid ;
+}
+#data{
+	min-height: 1000px;
+	background: url('img/back.jpg') fixed;
+	margin:0;
+	margin-top: -20px;
+	padding: 40px 0;
+	box-sizing: border-box;
+	background-size: cover;
+}
+
+footer{
+	display: block;
+	height: 130px;
+	background: #555454;
+	margin:0;
+}
+footer h3{
+	text-align: center;
+	padding-top: 50px;
+	color: #9B9B9B;
+	text-transform: uppercase;
+	margin:0;
+}
+#dobitoDoshika{
+	display: block;
+	width: 350px;
+	margin:0 auto;
+	background: rgba(64,242,93, .5);
+	color: #3A5B38;
+}
+.dob{
+	font-size: 130%;
+	margin-left:5px;
+}
+.gone{
+
+animation: disap .5s ease-out alternate;
+animation-fill-mode: forwards; 
+}
+.gone2{
+animation: disap2 1s ease-out alternate;
+animation-direction: reverse;
+animation-fill-mode: forwards; 
+}
+@keyframes disap2 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+@keyframes disap {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
