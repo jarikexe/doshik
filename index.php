@@ -15,7 +15,7 @@
 		<div id="back">
 			<div id="nameFill" class="bounceIn animated" >
 				<div id="inpOk">
-					<input type="text" id="name" autofocus='' >
+					<input type="text" id="name" autofocus='' placeholder="Player name" >
 					<img id="subm" src="img/ok.png" alt="">
 				</div>
 			</div>
@@ -33,14 +33,23 @@
 				</table>
 			</div>
 		</div>
+			
+
+		
 		<div id="data">
+		<div id="rools">
+			<p>
+				Use &#8592; &#8594; to move. Your goal is to reach maximum amount of packages of noodles without touching enemies. You can compare your result with others players in the table below. Enter your player login to start.
+			</p>
+		</div>
+
 			<span id='makeDisapiar'>
 			<!-- <?php include("includes/ShowUsers.php") ?> -->
 			</span>
 		</div>
 	</div>
 	<footer>
-		<h3>thank you for your attention</h3>
+		<h3>Thank you for your attention</h3>
 	</footer>
 	<script type="text/javascript" src="main.min.js"></script>
 	
