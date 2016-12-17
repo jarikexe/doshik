@@ -33,29 +33,29 @@
 				</table>
 			</div>
 		</div>
+		<div class="wall">
 			
+			<div id="rools">
+				<p>
+					Use &#8592; &#8594; to move. Your goal is to reach maximum amount of packages of noodles without touching enemies. You can compare your result with others players in the table below. Enter your player login to start.
+				</p>
+			</div>
 
-		
-		<div id="data">
-		<div id="rools">
-			<p>
-				Use &#8592; &#8594; to move. Your goal is to reach maximum amount of packages of noodles without touching enemies. You can compare your result with others players in the table below. Enter your player login to start.
-			</p>
-		</div>
-
-			<span id='makeDisapiar'>
-			<!-- <?php include("includes/ShowUsers.php") ?> -->
-			</span>
+			<div id="data">
+				<span id='makeDisapiar'>
+				<!-- <?php include("includes/ShowUsers.php") ?> -->
+				</span>
+			</div>
 		</div>
 	</div>
 	<footer>
 		<h3>Thank you for your attention</h3>
 	</footer>
 	<script type="text/javascript" src="main.min.js"></script>
-	
-	
-	
-	
+
+
+
+
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
