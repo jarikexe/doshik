@@ -34,7 +34,6 @@
 			</div>
 		</div>
 		<div class="wall">
-			
 			<div id="rools">
 				<p>
 					Use &#8592; &#8594; to move. Your goal is to reach maximum amount of packages of noodles without touching enemies. You can compare your result with others players in the table below. Enter your player login to start.
